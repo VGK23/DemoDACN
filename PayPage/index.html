@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thanh toán</title>
+  </head>
+  <body>
+    <!--Thanh taskbar ở đây-->
+    <span class="leftButton home">
+      <button>
+        <a href="../index.html">
+          <img
+            src="../image_HomePage/home_button.png"
+            alt="home"
+            width="23px"
+          />
+        </a>
+      </button>
+    </span>
+    <span class="leftButton menu">
+      <button>
+        <img
+          src="../image_HomePage/MenuButton.png"
+          alt="menu"
+          width="23px"
+          height="23px"
+        />
+      </button>
+    </span>
+
+    <span class="Logo">
+      <a href="../index.html"
+        ><img src="../image_HomePage/Logo.png" alt="logo" width="200px"
+      /></a>
+    </span>
+    <span>
+      <a class="rightButton" href="../image_HomePage/SignInPage/index.html"
+        >Đăng nhập</a
+      >
+      <a class="rightButton" href="../image_HomePage/SignUpPage/index.html"
+        >Đăng ký</a
+      >
+      <a class="rightButton" href="../image_HomePage/GoodsCart/index.html">
+        <img
+          src="../image_HomePage/buttonCart.png"
+          alt="giỏ hàng"
+          width="23px"
+        />
+      </a>
+    </span>
+    <form class="rightButton">
+      <input type="text" placeholder="Nhập sản phẩm muốn tìm" />
+      <button type="submit">
+        <img src="../image_HomePage/buttonFind.png" alt="find" width="10px" />
+      </button>
+    </form>
+
+    <!--KẾT THÚC THANH TASKBAR-->
+    <!--địa chỉ-->
+    <table class="PayPage DiaChi" width="800">
+      <tr>
+        <th>Địa chỉ nhận</th>
+        <td>họ tên</td>
+        <td>sdt</td>
+        <td>thông tin địa chỉ</td>
+        <td><button href="">Thay đổi</button></td>
+      </tr>
+    </table>
+
+    <!--Thông tin sản phẩm-->
+    <table class="PayPage" width="800">
+      <tr>
+        <th>Tên shop</th>
+      </tr>
+      <tr>
+        <td>Thông tin sản phẩm</td>
+        <td>Loại</td>
+        <td>Số lượng</td>
+        <td>Đơn giá</td>
+        <td>Tổng tiền</td>
+      </tr>
+    </table>
+
+    <!--THÔNG TIN VOUCHER-->
+    <table class="PayPage" width="800">
+      <tr>
+        <td>Thông tin voucher</td>
+        <td><button href="">Chọn voucher</button></td>
+      </tr>
+    </table>
+
+    <!--THÔNG TIN VẬN CHUYỂN-->
+    <table class="PayPage" width="800">
+      <tr>
+        <th>Thông tin vận chuyển</th>
+        <td>Phương thức ship</td>
+        <td><button href="">Thay đổi phương thức ship</button></td>
+        <td>Tiền ship</td>
+      </tr>
+      <tr>
+        <th>Thời gian dự kiến</th>
+        <td>Thông tin thời gian</td>
+      </tr>
+      <tr>
+        <th>Lưu ý cho người bán</th>
+      </tr>
+    </table>
+
+    <!--THANH TOÁN-->
+    <table class="PayPage" width="800">
+      <tr>
+        <th>Phương thức thanh toán</th>
+        <td><button href="">Ngân hàng</button></td>
+        <td><button>Tiền mặt</button></td>
+      </tr>
+      <tr>
+        <th>Tổng tiền sản phẩm</th>
+        <td>abc</td>
+        <th>Phí ship</th>
+        <td>xyz</td>
+        <th>Tổng tiền thanh toán</th>
+        <td>mno</td>
+      </tr>
+    </table>
+  </body>
+</html>

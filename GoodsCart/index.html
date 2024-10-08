@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Giỏ hàng</title>
+  </head>
+  <body>
+    <!--Thanh taskbar ở đây-->
+    <span class="leftButton home">
+      <button>
+        <a href="../index.html">
+          <img
+            src="../image_HomePage/home_button.png"
+            alt="home"
+            width="23px"
+          />
+        </a>
+      </button>
+    </span>
+    <span class="leftButton menu">
+      <button>
+        <img
+          src="../image_HomePage/MenuButton.png"
+          alt="menu"
+          width="23px"
+          height="23px"
+        />
+      </button>
+    </span>
+
+    <span class="Logo">
+      <a href="../index.html"
+        ><img src="../image_HomePage/Logo.png" alt="logo" width="200px"
+      /></a>
+    </span>
+    <span>
+      <a class="rightButton" href="../image_HomePage/SignInPage/index.html"
+        >Đăng nhập</a
+      >
+      <a class="rightButton" href="../image_HomePage/SignUpPage/index.html"
+        >Đăng ký</a
+      >
+      <a class="rightButton" href="../image_HomePage/GoodsCart/index.html">
+        <img
+          src="../image_HomePage/buttonCart.png"
+          alt="giỏ hàng"
+          width="23px"
+        />
+      </a>
+    </span>
+    <form class="rightButton">
+      <input type="text" placeholder="Nhập sản phẩm muốn tìm" />
+      <button type="submit">
+        <img src="../image_HomePage/buttonFind.png" alt="find" width="10px" />
+      </button>
+    </form>
+
+    <!--KẾT THÚC THANH TASKBAR-->
+    <table class="GoogCart" width="800px">
+      <thead>
+        <tc>
+          <th>Sản phẩm</th>
+          <th>Loại</th>
+          <th>Số lượng</th>
+          <th>Đơn giá</th>
+          <th>Tổng tiền</th>
+        </tc>
+      </thead>
+      <!--<tbody>
+        <tr>
+          <td>Ghế kiểu</td>
+          <td>Gỗ</td>
+          <td>2</td>
+          <td>100.000vnd</td>
+          <td>200.000vnd</td>
+        </tr>
+        <tr>-->
+      <!--sp ko tồn tại-->
+      <!--<td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>-->
+    </table>
+    <table class="GoogCart" width="800px">
+      <tfoot>
+        <tr>
+          <td>Chọn tất cả</td>
+          <td>Xóa</td>
+          <td>Bỏ các sản phẩm không tồn tại</td>
+          <td>Tổng sản phẩm</td>
+          <td>Tổng tiền</td>
+          <td>
+            <button href="../HomeAfterSignIn/index.html">Mua hàng</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
